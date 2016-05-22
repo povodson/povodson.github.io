@@ -1,0 +1,146 @@
+@font-face {
+    font-family: 'MyriadPro';
+    src: url('../fonts/MyriadPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Open Sans', 'MyriadPro', Arial, Tahoma, sans-serif;
+	text-decoration: none;
+	background: #ffffff;
+}
+
+.wrapper{
+	width: 966px;
+	margin: 0 auto;
+}
+
+.header{
+	margin-bottom: 40px;
+}
+
+.header img{
+	margin: 45px 0;
+}
+
+.main-menu{
+	height: 40px;
+	list-style: none;
+	background-color: #fff;
+	background-image: -webkit-linear-gradient(bottom, #444343, #5e5e5e);
+	background-image: -moz-linear-gradient(bottom, #444343, #5e5e5e);
+	background-image: -o-linear-gradient(bottom, #444343, #5e5e5e);
+	background-image: -ms-linear-gradient(bottom, #444343, #5e5e5e);
+	background-image: linear-gradient(to top, #444343, #5e5e5e);
+}
+
+.main-menu li{
+	display: inline-block;
+	margin-right: 40px;
+}
+
+.main-menu a{
+	display: block;
+	width: 100px;
+	font-size: 15px;
+	line-height: 40px;
+	text-decoration: none;
+	text-align: center;
+	color: #fff;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.5);
+}
+
+.main-menu a:hover{
+	width: 98px;
+	border-left: 1px solid #838383;
+	border-right: 1px solid #838383; 
+	background-color: #fff;
+	background-image: -webkit-linear-gradient(bottom, #2e2e2e, #4a4a4a);
+	background-image: -moz-linear-gradient(bottom, #2e2e2e, #4a4a4a);
+	background-image: -o-linear-gradient(bottom, #2e2e2e, #4a4a4a);
+	background-image: -ms-linear-gradient(bottom, #2e2e2e, #4a4a4a);
+	background-image: linear-gradient(to top, #2e2e2e, #4a4a4a);
+}
+
+.sidebar {
+	float: left;
+    width: 238px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar a{
+	display: block;
+	height: 38px;
+	margin-bottom: -1px;
+	padding-left: 20px;
+	border: 1px solid #c8c8c8;
+	font-size: 13px;
+	line-height: 38px;
+	text-decoration: none;
+	color: #656363;
+}
+
+.sidebar a:hover{
+	padding-left: 35px;
+	color: #2c2c2c;
+	background-color: #f9f9f9;
+}
+
+.content-wrapper{
+	float: right;
+	width: 675px;
+	margin-bottom: 25px;
+}
+
+.image{
+	padding: 45px 0;
+	text-align: center;
+	border: 1px solid #c8c8c8;
+}
+
+.text{
+	font-family: 'MyriadPro', 'Open Sans', Arial, Tahoma, sans-serif;
+	font-size: 13.33px;
+	color: #2c2c2c;
+	padding: 35px 25px;
+}
+
+.footer{
+	clear: both;
+	height: 40px;
+	margin-bottom: 60px;
+	padding: 0 25px;
+	line-height: 40px;
+	text-align: right;
+	font-size: 13px;
+	color: #2c2c2c;
+	background-color: #e1e1e1;
+}
+
+.footer-menu{
+	float: left;
+	list-style: none;
+}
+
+.footer-menu li{
+	display: inline-block;
+	margin-right: 95px;
+}
+
+.footer-menu a{
+	text-decoration: none;
+	font-size: 13px;
+	color: #2c2c2c;
+}
+
+.footer-menu a:hover{
+	text-decoration: underline;
+}
