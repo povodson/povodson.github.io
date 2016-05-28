@@ -1,0 +1,227 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: Tahoma, Arial, sans-serif;
+	font-weight: normal;
+	text-decoration: none;
+	background: #fff url('../img/bg.png') center -38px repeat-x;
+}
+
+h1{
+	font-family: Tahoma, Arial, sans-serif;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 30px;
+	text-align: center;
+	color: #424c43;
+	text-shadow: 0px 0px 1px rgba(66, 76, 67, 0.75);
+}
+
+.main{
+	width: 1000px;
+	height: 988px;
+	margin: 0 auto 3px auto;
+	background-color: #fff;
+	-webkit-box-shadow: 0px 14px 13px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 14px 13px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 14px 13px 0px rgba(0,0,0,0.75);
+}
+
+.logo{
+	float: left;
+	width: 212px;
+	height: 65px;
+	padding-top: 110px;
+	padding-left: 99px;
+	font-size: 12px;
+	line-height: 10px;
+	color: #128aa7;
+	text-shadow: 0px 0px 1px rgba(18, 138, 167, 0.15);
+	background: url('../img/logo.png') no-repeat;
+	background-position: 28px 11px;
+}
+
+.header{
+	float: right;
+	height: 65px;
+}
+
+.contacts{
+	float: right;
+	width: 155px;
+}
+
+.contacts p,
+.contacts span,
+.contacts a{
+	font-size: 12px;
+	line-height: 20px;
+	text-decoration: none;
+	color: #128aa7;
+	text-shadow: 0px 0px 1px rgba(18, 138, 167, 0.15);
+}
+
+.contacts span{
+	text-shadow: 0px 0px 1px rgba(18, 138, 167, 0.35);
+}
+
+.contries{
+	clear: right;
+	float: right;
+	width: 398px;
+	margin-top: 25px;
+}
+
+.state{
+	display: inline-block;
+    width: 58px;
+    height: 42px;
+    margin: 0;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.state a{
+	font-size: 10px;
+	color: #128aa7;
+}
+
+.flag{
+	width: 42px;
+	height: 42px;
+	margin: auto;
+}
+
+.flag1{
+	background: url('../img/flags.png') no-repeat;
+}
+
+.flag2{
+	background: url('../img/flags.png') no-repeat -58px;
+}
+
+.flag3{
+	background: url('../img/flags.png') no-repeat -114px;
+}
+
+.flag4{
+	background: url('../img/flags.png') no-repeat -169px;
+}
+
+.flag5{
+	background: url('../img/flags.png') no-repeat -225px;
+}
+
+.flag6{
+	background: url('../img/flags.png') no-repeat -282px;
+}
+
+.photo{
+	clear: both;
+	height: 237px;
+	background: url('../img/photo.png') no-repeat;
+	border-bottom: 1px solid #cacbcb;
+}
+
+.lines{
+	height: 235px;
+	border-top: 1px solid #128aa7;
+	border-bottom: 1px solid #128aa7;
+}
+
+.panel{
+	position: relative;
+	width: 1004px;
+	height: 34px;
+	margin-top: -1px;
+	margin-left: -2px;
+	background: url('../img/panel.png') no-repeat center;
+}
+
+.menu{
+    margin-left: 57px;
+}
+
+.menu>li{
+    position: relative;
+    height: 30px;
+    display: inline-block;
+    margin-right: 45px;
+}
+
+.menu a{
+	display: block;
+    padding: 0 9px;
+    line-height: 28px;
+	font-size: 14px;
+	text-decoration: none;
+	color: #fff;
+}
+
+.menu a span{
+	font-size: 7px;
+	vertical-align: top;
+}
+
+.submenu{
+	display: none;
+    position: absolute;
+    top: 30px;
+	min-width: 150px;
+	min-height: 125px;
+    padding: 0;
+    z-index: 10;
+    list-style: none;
+    background: #303030;
+    -webkit-box-shadow: 0 5px 5px rgba(0,0,0,.75);
+	-moz-box-shadow: 0 5px 5px rgba(0,0,0,.75);
+	box-shadow: 0 5px 5px rgba(0,0,0,.75);
+}
+
+.submenu a{
+	line-height: 24px;
+}
+
+.menu>li:hover .submenu{
+	display: block;
+}
+
+.block{
+	width: 178px;
+	height: 542px;
+	margin-top: -4px;
+	padding: 4px 15px 0 15px;
+	font-size: 14px;
+	line-height: 24px;
+	color: #424c43;
+	background: #edeef0;
+	border-left: 1px solid #c7cacf;
+	border-right: 1px solid #c7cacf;
+}
+
+.left-block{
+	float: left;
+}
+
+.right-block{
+	float: right;
+}
+
+.footer{
+	width: 1100px;
+	height: 27px;
+	margin: auto;
+	font-size: 12px;
+	line-height: 27px;
+	text-align: center;
+	color: #fff;
+	background-color: #0c739f;
+}
+
+.footer a{
+	text-decoration: none;
+	color: #fff;
+}
