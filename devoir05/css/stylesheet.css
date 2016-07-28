@@ -124,7 +124,6 @@ form{
 	width: 276px;
 	height: 35px;
 	margin: auto;
-	padding: auto;
 	color: white;
 	background-color: #3b5998;
 	border-radius: 5px;
@@ -139,7 +138,6 @@ button{
 	width: 276px;
 	height: 35px;
 	margin: auto;
-	padding: auto;
 	background-color: transparent;
 	background: url('../img/fb.png') no-repeat center center;
 	z-index: 10;
@@ -170,7 +168,6 @@ button:active{
 	font-family: Tahoma, Arial, sans-serif;
 	font-size: 14px;
 	color: #fff;
-	background-color: #fff;
 	-webkit-box-shadow: 0 1px #4b4b4b, inset 0 2px 5px rgba(29,26,22,.2), inset 0 0 2px rgba(0,0,0,.1);
 	-moz-box-shadow: 0 1px #4b4b4b, inset 0 2px 5px rgba(29,26,22,.2), inset 0 0 2px rgba(0,0,0,.1);
 	box-shadow: 0 1px #4b4b4b, inset 0 2px 5px rgba(29,26,22,.2), inset 0 0 2px rgba(0,0,0,.1);
